@@ -59,15 +59,15 @@ console.log( worrierIf(m) )
 /* 一行if文 */
 init()
 
-const conciseIf = (x) => {
+const smartIf = (x) => {
     if (x % 2 === 0) x++;
 
     return x;
 }
 
-console.log( conciseIf(n) )
+console.log( smartIf(n) )
 //31
-console.log( conciseIf(m) )
+console.log( smartIf(m) )
 //31
 
 
