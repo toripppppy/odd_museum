@@ -86,10 +86,12 @@ console.log( addOdd(m) )
 
 
 /* 三項演算子 */
+
+//from muguet
 init()
 
 const ternaryIf = (x) => {
-    return x % 2 === 0 ? x + 1 : x;
+    return (x % 2 === 0) ? x + 1 : x;
 }
 
 console.log( ternaryIf(n) )
